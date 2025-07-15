@@ -1,0 +1,31 @@
+.button {
+  font-family: "Oswald", "Arial Narrow", sans-serif;
+  display: block;
+  text-align: center;
+  padding: 11px 18px;
+  background-color: #68b738;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 20px;
+    font-size: 20px;
+    z-index: 3;
+    padding: 17px 0;
+  }
+}
+
+.button:hover {
+  background-color: #5eaa2f;
+}
+
+.button:active {
+  color: rgba(255, 255, 255, 0.3);
+}

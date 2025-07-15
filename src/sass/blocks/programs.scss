@@ -1,0 +1,38 @@
+.programs {
+  padding: 0 20px;
+
+  @media (min-width: $tablet-width) {
+    padding: 0 30px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 0 110px;
+  }
+}
+
+.programs__narrow {
+  margin-left: 15px;
+}
+
+.programs__narrow-big {
+  display: none;
+  margin-left: 15px;
+}
+
+.programs__list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+
+  @media (min-width: $tablet-width) {
+    display: block;
+    margin-top: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0;
+  }
+}

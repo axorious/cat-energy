@@ -1,0 +1,106 @@
+.main-block {
+  position: relative;
+  padding: 27px 20px 0;
+  margin-bottom: 22px;
+  background-image: url("../../img/index-background-desktop2.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+
+  @media (min-width: $tablet-width) {
+    padding: 65px 30px 0 30px;
+    background-image: none;
+    display: grid;
+    margin-bottom: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 110px 80px 265px 80px;
+  }
+}
+
+.main-block__title {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Oswald", "Arial Narrow", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 36px;
+  margin: 0;
+  margin-bottom: 25px;
+  position: relative;
+  z-index: 3;
+
+  @media (min-width: $tablet-width) {
+    color: #000000;
+    font-size: 60px;
+    line-height: 60px;
+    text-align: start;
+    max-width: 450px;
+    margin-left: 90px;
+    margin-bottom: 40px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-left: 110px;
+  }
+}
+
+.main-block__subtitle {
+  color: #ffffff;
+  font-family: "Oswald", "Arial Narrow", sans-serif;
+  line-height: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 29px;
+  position: relative;
+  z-index: 3;
+
+  @media (min-width: $tablet-width) {
+    color: #000000;
+    text-align: start;
+    font-size: 20px;
+    line-height: 20px;
+    margin-left: 90px;
+    margin-bottom: 21px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-left: 110px;
+    margin-bottom: 50px;
+  }
+}
+
+.main-block__img {
+  position: relative;
+  z-index: 1;
+
+  @media (min-width: $tablet-width) {
+    order: 1;
+    margin: 0 auto;
+  }
+
+  @media (min-width: $desktop-width) {
+    position: absolute;
+    top: 30px;
+    right: 330px;
+    margin: 0;
+  }
+}
+
+.main-block__button {
+  @media (min-width: $tablet-width) {
+    margin-left: 90px;
+    max-width: 244px;
+    margin-top: -584px;
+    max-height: 54px;
+    padding: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-left: 110px;
+    margin-top: 0;
+    padding: 17px 10px;
+    max-width: 224px;
+  }
+}
