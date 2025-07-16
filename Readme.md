@@ -1,5 +1,7 @@
 # Cat Energy (Vite)
 
+Онлайн обзор проекта - https://cat-energy-gules.vercel.app/
+
 Проект адаптивного сайта "Cat Energy", собранный на [Vite](https://vitejs.dev/) с использованием SCSS.
 
 ## Структура проекта
